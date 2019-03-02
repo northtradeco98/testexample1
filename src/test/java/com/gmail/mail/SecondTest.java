@@ -29,6 +29,7 @@ public class SecondTest {
         driver.findElement(By.xpath("//small[contains(@class,'bpk-autosuggest')]")).click();
         driver.findElement(By.xpath("//button[contains(@class,'SubmitButton-WxCV2')]")).click();
         driver.findElement(By.xpath("//button[contains(@class,'SubmitButton-WxCV2')]")).click();
+        driver.findElement(By.xpath("//button[contains(@class,'SubmitButton-WxCV2')]")).click();
 
 
     }
