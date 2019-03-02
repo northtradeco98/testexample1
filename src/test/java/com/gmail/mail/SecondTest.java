@@ -23,7 +23,7 @@ public class SecondTest {
     @Test
     public void SecondTest() {
         driver.get("https://www.skyscanner.com/");
-        driver.findElement(By.name("fsc-origin-search")).sendKeys("sain");
+        driver.findElement(By.name("fsc-origiiin-search")).sendKeys("sain");
         driver.findElement(By.xpath("//span[text()='St Petersburg Pulkovo (LED)']")).click();
         driver.findElement(By.name("fsc-destination-search")).sendKeys("los");
         driver.findElement(By.xpath("//small[contains(@class,'bpk-autosuggest')]")).click();
